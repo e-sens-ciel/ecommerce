@@ -1,0 +1,84 @@
+8/02/2021 4:38:30 PM	Ce journal contient des informations sur l'importation du schéma dans le projet 'DBecommerce' sur l'ordinateur 'ZOULI' par l'utilisateur 'MediaMonster'.
+8/02/2021 4:38:30 PM	L'importation du schéma de base de données a commencé.
+8/02/2021 4:39:19 PM	Collecte des informations d'identification à la base de données
+8/02/2021 4:39:19 PM	Collecte des options de la base de données
+8/02/2021 4:39:19 PM	Collecte des utilisateurs
+8/02/2021 4:39:19 PM	Collecte des rôles
+8/02/2021 4:39:19 PM	Collecte des rôles d'application
+8/02/2021 4:39:19 PM	Collecte des appartenances aux rôles
+8/02/2021 4:39:19 PM	Collecte des groupes de fichiers
+8/02/2021 4:39:19 PM	Collecte des catalogues de recherche en texte intégral
+8/02/2021 4:39:19 PM	Collecte des assemblys
+8/02/2021 4:39:19 PM	Collecte des certificats
+8/02/2021 4:39:20 PM	Collecte des clés asymétriques
+8/02/2021 4:39:20 PM	Collecte des clés symétriques
+8/02/2021 4:39:20 PM	Collecte des clés symétriques chiffrées
+8/02/2021 4:39:20 PM	Collecte des schémas
+8/02/2021 4:39:20 PM	Collecte des collections de schémas XML
+8/02/2021 4:39:20 PM	Collecte des types de données définis par l'utilisateur
+8/02/2021 4:39:20 PM	Collecte des types définis par l'utilisateur
+8/02/2021 4:39:20 PM	Collecte des types de tables
+8/02/2021 4:39:20 PM	Collecte des clés uniques des types de tables
+8/02/2021 4:39:20 PM	Collecte des clés primaires pour les types de tables
+8/02/2021 4:39:20 PM	Collecte d'index pour types de tables
+8/02/2021 4:39:20 PM	Collecte des contraintes de validation pour les types de tables
+8/02/2021 4:39:20 PM	Collecte des contraintes par défaut pour les types de tables
+8/02/2021 4:39:20 PM	Collecte des fonctions de partition
+8/02/2021 4:39:20 PM	Collecte des schémas de partition
+8/02/2021 4:40:46 PM	Collecte des fonctions
+8/02/2021 4:41:42 PM	Collecte de fonctions cryptées
+8/02/2021 4:42:11 PM	Collecte des agrégats
+8/02/2021 4:42:11 PM	Collecte des procédures
+8/02/2021 4:42:11 PM	Collecte de procédures cryptées
+8/02/2021 4:42:12 PM	Collecte des tables
+8/02/2021 4:42:12 PM	Collecte des clés primaires
+8/02/2021 4:42:13 PM	Collecte des contraintes uniques
+8/02/2021 4:42:13 PM	Collecte des clés étrangères
+8/02/2021 4:42:13 PM	Collecte des contraintes par défaut
+8/02/2021 4:42:13 PM	Collecte des contraintes de validation
+8/02/2021 4:42:13 PM	Collecte des vues
+8/02/2021 4:42:13 PM	Collecte de vues cryptées
+8/02/2021 4:42:13 PM	Collecte des index
+8/02/2021 4:42:13 PM	Collecte des statistiques
+8/02/2021 4:42:13 PM	Collecte des listes de mots vides d'index de recherche en texte intégral
+8/02/2021 4:42:13 PM	Collecte des listes de propriétés de recherche
+8/02/2021 4:42:13 PM	Collecte des propriétés de recherche
+8/02/2021 4:42:13 PM	Collecte des index de recherche en texte intégral
+8/02/2021 4:42:14 PM	Collecte des index de la banque de colonnes
+8/02/2021 4:42:14 PM	Collecte des index spatiaux
+8/02/2021 4:42:14 PM	Collecte des index XML
+8/02/2021 4:42:14 PM	Collecte d'index XML sélectifs
+8/02/2021 4:42:14 PM	Collecte de déclencheurs cryptés
+8/02/2021 4:42:14 PM	Collecte des déclencheurs
+8/02/2021 4:42:14 PM	Collecte des déclencheurs chiffrés et DDL CLR
+8/02/2021 4:42:15 PM	Collecte des DDL triggers
+8/02/2021 4:42:15 PM	Collecte des synonymes
+8/02/2021 4:42:15 PM	Collecte des valeurs par défaut
+8/02/2021 4:42:15 PM	Collecte des liaisons UDDT de contrainte de données
+8/02/2021 4:42:15 PM	Collecte des règles
+8/02/2021 4:42:15 PM	Collecte des liaisons UDDT de contrainte de données
+8/02/2021 4:42:15 PM	Collecte des types de messages
+8/02/2021 4:42:15 PM	Collecte des files d'attente
+8/02/2021 4:42:15 PM	Collecte des contrats
+8/02/2021 4:42:15 PM	Collecte des services
+8/02/2021 4:42:15 PM	Collecte des notifications d'événements
+8/02/2021 4:42:15 PM	Collecte des liaisons de service distant
+8/02/2021 4:42:15 PM	Collecte des priorités de Service Broker
+8/02/2021 4:42:15 PM	Collecte des signatures
+8/02/2021 4:42:16 PM	Collection des options de compression de données
+8/02/2021 4:42:16 PM	Collecte des types de séquences
+8/02/2021 4:42:16 PM	Collecte des stratégies de sécurité
+8/02/2021 4:42:16 PM	Collecter les clés de chiffrement de colonne
+8/02/2021 4:42:16 PM	Collecte des clés principales de colonne
+8/02/2021 4:42:16 PM	Collecte des sources de données externes
+8/02/2021 4:42:16 PM	Collecte des formats de fichier externes
+8/02/2021 4:42:16 PM	Collecte des tables externes
+8/02/2021 4:42:16 PM	Collection des propriétés étendues
+8/02/2021 4:42:18 PM	Collecte des informations d'identification
+8/02/2021 4:42:18 PM	Collecte des connexions
+8/02/2021 4:42:18 PM	Collecte des audits du serveur
+8/02/2021 4:42:20 PM	Analyse du projet à la recherche des éléments en double
+8/02/2021 4:42:20 PM	Fin du traitement des éléments en double
+8/02/2021 4:42:23 PM	Importation de la base de données terminée.
+8/02/2021 4:42:23 PM	Un résumé de l'opération d'importation a été enregistré à l'emplacement suivant : C:\Users\MediaMonster\source\repos\Ecommerce\DBecommerce\Importer les journaux de schémas\DBecommerce_20210208033830.log.
+8/02/2021 4:42:23 PM	Cliquez sur Terminer pour continuer...
