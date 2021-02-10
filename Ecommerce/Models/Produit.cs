@@ -13,7 +13,7 @@ namespace Ecommerce.Models
         private string _description;
         private double _prix;
         private double _quantiteDisponible;
-        // IMAGE ? 
+        private string _image;
         private double _taxe;
         private char _devise;
         private DateTime _dateAjout;
@@ -123,6 +123,19 @@ namespace Ecommerce.Models
             set
             {
                 _eAN = value;
+            }
+        }
+
+        public string Image
+        {
+            get
+            {
+                return _image;
+            }
+
+            set
+            {
+                _image = value;
             }
         }
         #endregion
