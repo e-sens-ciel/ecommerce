@@ -6,7 +6,7 @@
     <Name>DBCommerce</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{a6a80f1e-d10b-44db-b0ac-1fba0a3d6242}</ProjectGuid>
+    <ProjectGuid>{d684f396-71dd-45d0-a25a-b946e7672bc0}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -69,7 +69,7 @@
     <Build Include="dbo\Tables\ClientProduit.sql" />
     <Build Include="dbo\Tables\CommandeProduit.sql" />
     <Build Include="dbo\Tables\Commande.sql" />
-    <Build Include="dbo\Tables\Produit.sql" />
     <Build Include="dbo\Tables\Client.sql" />
+    <Build Include="dbo\Tables\Produit.sql" />
   </ItemGroup>
 </Project>

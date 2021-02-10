@@ -1,0 +1,9 @@
+C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\bin\Debug\DBCommerce.dacpac
+C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\bin\Debug\DBCommerce.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\bin\Debug\DBCommerce.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\obj\Debug\Model.xml
+C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\obj\Debug\refactor.xml
+C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\obj\Debug\postdeploy.sql
+C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\obj\Debug\predeploy.sql
+C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\obj\Debug\DBCommerce.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\obj\Debug\DBCommerce.pdb

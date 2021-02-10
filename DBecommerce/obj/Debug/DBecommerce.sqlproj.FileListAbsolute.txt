@@ -1,6 +1,0 @@
-C:\Users\MediaMonster\source\repos\Ecommerce\DBecommerce\bin\Debug\DBecommerce.dacpac
-C:\Users\MediaMonster\source\repos\Ecommerce\DBecommerce\bin\Debug\DBecommerce.dll
-C:\Users\MediaMonster\source\repos\Ecommerce\DBecommerce\bin\Debug\DBecommerce.pdb
-C:\Users\MediaMonster\source\repos\Ecommerce\DBecommerce\obj\Debug\DBecommerce.sqlprojAssemblyReference.cache
-C:\Users\MediaMonster\source\repos\Ecommerce\DBecommerce\obj\Debug\DBecommerce.dll
-C:\Users\MediaMonster\source\repos\Ecommerce\DBecommerce\obj\Debug\DBecommerce.pdb
