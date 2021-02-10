@@ -16,13 +16,26 @@ namespace Ecommerce
                         "~/Scripts/jquery.validate*"));
 
             // Bundle for CSS 
+            bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
+            "~/Content/bootstrap.min.css"));
+
+            bundles.Add(new StyleBundle("~/Content/bootstrapmin").Include(
+            "~/Content/bootstrap.bundle.min.css"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
-            "~/Content/bootstrap.css",
+            //"~/Content/bootstrap.css",
             "~/css/style.css"));
+
+            bundles.Add(new StyleBundle("~/Content/slick").Include(
+            "~/lib/slick/slick.css",
+            "~/lib/slick/slick-theme.css"));
+
+
 
             // JavaScript librairies
             bundles.Add(new ScriptBundle("~/bundles/easing").Include(
                      "~/lib/easing/easing.min.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/slick").Include(
                     "~/lib/slick/slick.min.js"));
 
