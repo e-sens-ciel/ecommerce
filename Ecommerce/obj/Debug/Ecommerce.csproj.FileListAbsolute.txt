@@ -84,3 +84,11 @@ C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.Cor
 C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.csproj.CopyComplete
 C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.dll
 C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\obj\Debug\Ecommerce.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Commerce.Models.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Commerce.Repositories.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Commerce.DAL.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Commerce.Entities.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Commerce.Models.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Commerce.Repositories.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Commerce.DAL.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Commerce.Entities.pdb

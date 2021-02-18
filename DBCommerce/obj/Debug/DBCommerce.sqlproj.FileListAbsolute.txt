@@ -7,3 +7,4 @@ C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\obj\Debug\postdeploy.sql
 C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\obj\Debug\predeploy.sql
 C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\obj\Debug\DBCommerce.dll
 C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\obj\Debug\DBCommerce.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\DBCommerce\obj\Debug\DBCommerce.sqlprojAssemblyReference.cache

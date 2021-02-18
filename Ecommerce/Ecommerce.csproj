@@ -130,7 +130,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IndexViewModel.cs" />
-    <Compile Include="Models\Produit.cs" />
     <Compile Include="Models\SliderModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -358,6 +357,16 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Commerce.Models\Commerce.Models.csproj">
+      <Project>{2927eecd-b92c-497c-91fc-96eef61a9889}</Project>
+      <Name>Commerce.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Commerce.Repositories\Commerce.Repositories.csproj">
+      <Project>{ee3b0069-24a9-4cfd-b8e9-459d9119680d}</Project>
+      <Name>Commerce.Repositories</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

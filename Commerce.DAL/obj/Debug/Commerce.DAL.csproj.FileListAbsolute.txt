@@ -1,0 +1,6 @@
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.DAL\bin\Debug\Commerce.DAL.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.DAL\bin\Debug\Commerce.DAL.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.DAL\obj\Debug\Commerce.DAL.csprojAssemblyReference.cache
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.DAL\obj\Debug\Commerce.DAL.csproj.CoreCompileInputs.cache
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.DAL\obj\Debug\Commerce.DAL.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.DAL\obj\Debug\Commerce.DAL.pdb

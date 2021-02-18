@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Ecommerce.Models
+namespace Commerce.Entities
 {
-    public class Produit
+    public class ProduitEntity
     {
         #region Fields
 
@@ -15,7 +16,7 @@ namespace Ecommerce.Models
         private double _quantiteDisponible;
         private string _image;
         private double _taxe;
-        private char _devise;
+        private string _devise;
         private DateTime _dateAjout;
         private string _eAN;
         #endregion
@@ -87,7 +88,7 @@ namespace Ecommerce.Models
             }
         }
 
-        public char Devise
+        public string Devise
         {
             get
             {

@@ -1,0 +1,6 @@
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\bin\Debug\Commerce.Entities.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\bin\Debug\Commerce.Entities.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\obj\Debug\Commerce.Entities.csprojAssemblyReference.cache
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\obj\Debug\Commerce.Entities.csproj.CoreCompileInputs.cache
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\obj\Debug\Commerce.Entities.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\obj\Debug\Commerce.Entities.pdb
