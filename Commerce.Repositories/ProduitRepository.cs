@@ -16,7 +16,8 @@ namespace Commerce.Repositories
 
         public List<ProduitEntity> Get()
         {
-            throw new NotImplementedException();
+            string requete = "Select * from Produit";
+            return base.Get(requete);
         }
 
         public ProduitEntity GetOne(int PK)

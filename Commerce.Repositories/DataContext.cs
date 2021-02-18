@@ -28,5 +28,20 @@ namespace Commerce.Repositories
             produitForController.Devise = produitFromDB.Devise;
             return produitForController;
         }
+
+        public List<ProduitModel> GetProduitSlider1()
+        {
+
+            return _produitRepo.Get()
+             .Select(produitsFromDB =>
+             new ProduitModel()
+             {
+                 Libellé = produitsFromDB.Libellé,
+                 Prix = produitsFromDB.Prix,
+                 Image = produitsFromDB.Image,
+                 Devise = produitsFromDB.Devise
+             }
+             ).ToList();
+            }
     }
 }

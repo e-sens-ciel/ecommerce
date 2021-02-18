@@ -14,6 +14,7 @@ namespace Ecommerce.Models
 
         //private List<SliderModel> _slider1;
         public ProduitModel produitDB;
+        private List<ProduitModel> produitsDBSlider1;
 
         private List<ProduitModel> _produits1;
         private List<ProduitModel> _produits2;
@@ -21,20 +22,24 @@ namespace Ecommerce.Models
         public IndexViewModel()
         {
              produitDB = ctx.GetProduit();
+             produitsDBSlider1 = ctx.GetProduitSlider1();
 
             //Section Featured Product
             //Slider1 = new List<SliderModel>();
 
             //Products for slider 1
-            Produits1 = new List<ProduitModel>();
+            //Produits1 = new List<ProduitModel>();
+            Produits1 = produitsDBSlider1;
+
+
             //Produits1.Add(new ProduitModel() { Libellé = "Fond de teint", Prix = 40, Devise="$", Image = "foundation.png" });
-            Produits1.Add(produitDB);
+            //Produits1.Add(produitDB);
 
 
-            Produits1.Add(new ProduitModel() { Libellé = "Rouge à lèvres", Prix = 40, Devise = "$", Image = "rougealevre.png" });
-            Produits1.Add(new ProduitModel() { Libellé = "Fard à paupières", Prix = 40, Devise = "$", Image = "fardspaupiere.png" });
-            Produits1.Add(new ProduitModel() { Libellé = "Illuminateur", Prix = 40, Devise = "$", Image = "illuminateur.png" });
-            Produits1.Add(new ProduitModel() { Libellé = "Palette contouring", Prix = 40, Devise = "$", Image = "contouring.png" });
+            //Produits1.Add(new ProduitModel() { Libellé = "Rouge à lèvres", Prix = 40, Devise = "$", Image = "rougealevre.png" });
+            //Produits1.Add(new ProduitModel() { Libellé = "Fard à paupières", Prix = 40, Devise = "$", Image = "fardspaupiere.png" });
+            //Produits1.Add(new ProduitModel() { Libellé = "Illuminateur", Prix = 40, Devise = "$", Image = "illuminateur.png" });
+            //Produits1.Add(new ProduitModel() { Libellé = "Palette contouring", Prix = 40, Devise = "$", Image = "contouring.png" });
 
 
             //Products for slider 2
@@ -81,6 +86,19 @@ namespace Ecommerce.Models
             set
             {
                 _produits2 = value;
+            }
+        }
+
+        public List<ProduitModel> ProduitsDBSlider1
+        {
+            get
+            {
+                return produitsDBSlider1;
+            }
+
+            set
+            {
+                produitsDBSlider1 = value;
             }
         }
     }
