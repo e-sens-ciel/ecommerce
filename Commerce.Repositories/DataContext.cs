@@ -1,21 +1,27 @@
 ﻿using Commerce.DAL.Repositories;
 using Commerce.Entities;
+using Commerce.Models;
 using Ecommerce.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tools;
 
 namespace Commerce.Repositories
 {
     public class DataContext
     {
         IConcreteRepository<ProduitEntity> _produitRepo;
+        IConcreteRepository<ClientEntity> _clientRepo;
+
 
         public DataContext(string connectionString)
         {
             _produitRepo = new ProduitRepository(connectionString);
+            _clientRepo = new ClientRepository(connectionString);
+
         }
 
         public ProduitModel GetProduit()
@@ -42,6 +48,39 @@ namespace Commerce.Repositories
                  Devise = produitsFromDB.Devise
              }
              ).ToList();
+         }
+
+        public bool CreateUser(ClientModel um)
+        {
+            ClientEntity ClientEntity = new ClientEntity()
+            {
+                Nom = um.Nom,
+                Prenom = um.Prenom,
+                Email = um.Email,
+                MotDePasse = um.MotDePasse
+            };
+
+            return _clientRepo.Insert(ClientEntity);
+        }
+
+        public ClientModel UserAuth(ClientModel lm)
+        {
+            ClientEntity ue = ((ClientRepository)_clientRepo).GetFromLogin(lm.Email);
+            if (ue == null) return null;
+            SecurityHelper sh = new SecurityHelper();
+            if (sh.VerifyHash(lm.MotDePasse, ue.MotDePasse, ue.Salt))
+            {
+                return new ClientModel()
+                {
+                    Email = ue.Email,
+                    Nom = ue.Nom,
+                    Prenom = ue.Prenom,
+                };
             }
+            else
+            {
+                return null;
+            }
+        }
     }
 }

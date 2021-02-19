@@ -92,3 +92,10 @@ C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Commerce.Models.pdb
 C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Commerce.Repositories.pdb
 C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Commerce.DAL.pdb
 C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Commerce.Entities.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\hbehr.recaptcha.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\WebMatrix.Data.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\WebMatrix.WebData.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Tools.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\WebMatrix.Data.xml
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\WebMatrix.WebData.xml
+C:\Users\MediaMonster\Desktop\Ecommerce\Ecommerce\bin\Tools.pdb

@@ -11,3 +11,7 @@ C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Repositories\obj\Debug\Commerce
 C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Repositories\obj\Debug\Commerce.Repositories.csproj.CopyComplete
 C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Repositories\obj\Debug\Commerce.Repositories.dll
 C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Repositories\obj\Debug\Commerce.Repositories.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Repositories\bin\Debug\Tools.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Repositories\bin\Debug\Tools.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Repositories\bin\Debug\Antlr3.Runtime.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Repositories\bin\Debug\Antlr3.Runtime.pdb

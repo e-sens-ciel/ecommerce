@@ -45,11 +45,11 @@ namespace Ecommerce.Controllers
 
             return View();
         }
-        public ActionResult Login()
-        {
-
-            return View();
-        }
+        //public ActionResult Login()
+        //{
+        //    //LoginViewModel lvm = new LoginViewModel();
+        //    return View();
+        //}
 
         public ActionResult Contact()
         {

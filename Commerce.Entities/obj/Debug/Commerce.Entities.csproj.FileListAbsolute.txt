@@ -4,3 +4,6 @@ C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\obj\Debug\Commerce.Ent
 C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\obj\Debug\Commerce.Entities.csproj.CoreCompileInputs.cache
 C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\obj\Debug\Commerce.Entities.dll
 C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\obj\Debug\Commerce.Entities.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\bin\Debug\Antlr3.Runtime.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Commerce.Entities\obj\Debug\Commerce.Entities.csproj.CopyComplete

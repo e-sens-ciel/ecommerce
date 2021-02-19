@@ -1,0 +1,9 @@
+C:\Users\MediaMonster\Desktop\Ecommerce\Tools\bin\Debug\Tools.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Tools\bin\Debug\Tools.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Tools\obj\Debug\Tools.csprojAssemblyReference.cache
+C:\Users\MediaMonster\Desktop\Ecommerce\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\MediaMonster\Desktop\Ecommerce\Tools\obj\Debug\Tools.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Tools\obj\Debug\Tools.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Tools\bin\Debug\Antlr3.Runtime.dll
+C:\Users\MediaMonster\Desktop\Ecommerce\Tools\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\MediaMonster\Desktop\Ecommerce\Tools\obj\Debug\Tools.csproj.CopyComplete

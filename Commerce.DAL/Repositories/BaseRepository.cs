@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Diagnostics;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Commerce.DAL.Repositories
 {
@@ -22,6 +19,42 @@ namespace Commerce.DAL.Repositories
         #endregion
         #region Methods
         #region Public
+        protected List<T> Get(string requete,Dictionary<string, object> parameters)
+        {
+            if (Connect())
+            {
+                //Ma variable de retour                 
+                //List<Utilisateur> retour = new List<Utilisateur>();            
+                // si pas de contraintes (Where T :....) ==> (List<T>)Activator.CreateInstance(typeof(List<T>));
+                List<T> retour = new List<T>();
+
+                //Création de commande
+                SqlCommand oCmd = new SqlCommand(requete, connection);
+
+
+                foreach (var item in parameters)
+                {
+                    oCmd.Parameters.Add(new SqlParameter(item.Key, item.Value));
+                }
+
+
+                SqlDataReader oDr = oCmd.ExecuteReader();
+                //Je lis ligne par ligne
+                while (oDr.Read())
+                {
+                    retour.Add(MapTo(oDr));
+                }
+                //!!!!!!!!!!!!!!!!!WARNING : FERMETURE DE L'oDR OBLIGATOIRE!!!!!!!!!!!!!!!!
+                oDr.Close();
+                Disconnect();
+                //renvoyer la liste des utilisateurs de db
+                return retour;
+            }
+            else
+            {
+                return null;
+            }
+        }
         protected List<T> Get(string requete)
         {
             if (Connect())
