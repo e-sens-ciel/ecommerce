@@ -10,7 +10,7 @@ namespace Commerce.Models
 {
     public class LoginModel
     {
-        private string _login, _password;
+        private string _login, _motDePasse;
 
         [Required]
         public string Login
@@ -26,16 +26,16 @@ namespace Commerce.Models
             }
         }
         [Required]
-        public string Password
+        public string motDePasse
         {
             get
             {
-                return _password;
+                return _motDePasse;
             }
 
             set
             {
-                _password = value;
+                _motDePasse = value;
             }
         }
     }

@@ -16,6 +16,7 @@ namespace Ecommerce.Controllers
     {
         DataContext ctx = new DataContext(ConfigurationManager.ConnectionStrings["Cnstr"].ConnectionString);
 
+
         // GET: Account
         public ActionResult Index()
         {
@@ -38,12 +39,12 @@ namespace Ecommerce.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Login(ClientModel lm)
+        public ActionResult Login(LoginModel lm)
         {
-            string userResponse = HttpContext.Request.Params["g-recaptcha-response"];
-            bool validCaptcha = ReCaptcha.ValidateCaptcha(userResponse);
-            if (validCaptcha)
-            {
+            //string userResponse = HttpContext.Request.Params["g-recaptcha-response"];
+            //bool validCaptcha = ReCaptcha.ValidateCaptcha(userResponse);
+            //if (validCaptcha)
+            //{
                 if (ModelState.IsValid)
                 {
                     ClientModel um = ctx.UserAuth(lm);
@@ -56,8 +57,8 @@ namespace Ecommerce.Controllers
                     {
                         SessionUtils.IsLogged = true;
                         SessionUtils.ConnectedUser = um;
-                        //return RedirectToAction("Index", "Home", new { area = "Membre" });
-                        return RedirectToAction("Index", "Home");
+                        return RedirectToAction("Index", "Home", new { area = "Membre" });
+                        //return RedirectToAction("Index", "Home");
 
                     }
                 }
@@ -65,11 +66,11 @@ namespace Ecommerce.Controllers
                 {
                     return View();
                 }
-            }
-            else
-            {
-                return View();
-            }
+            //}
+            //else
+            //{
+            //    return View();
+            //}
         }
 
 

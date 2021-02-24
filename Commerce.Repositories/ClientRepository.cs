@@ -19,7 +19,7 @@ namespace Commerce.Repositories
 
         public List<ClientEntity> Get()
         {
-            return base.Get("Select * from User");
+            return base.Get("Select * from Client");
         }
 
         public ClientEntity GetOne(int PK)

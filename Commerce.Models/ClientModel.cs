@@ -15,7 +15,7 @@ namespace Commerce.Models
         private string _email;
         private string _motDePasse;
         private string _confirmermdp;
-        private string _login;
+        //private string _login;
         #endregion
 
         #region Properties
@@ -77,22 +77,22 @@ namespace Commerce.Models
             }
         }
 
-        public string Login
-        {
-            get
-            {
-                return _login;
-            }
+        //public string Login
+        //{
+        //    get
+        //    {
+        //        return _login;
+        //    }
 
-            set
-            {
-                _login = value;
-            }
-        }
+        //    set
+        //    {
+        //        _login = value;
+        //    }
+        //}
 
         [Required]
         [MaxLength(50)]
-        [Compare("Password", ErrorMessage = "Les mot de passe ne correspondent pas")]
+        [Compare("MotDePasse", ErrorMessage = "Les mot de passe ne correspondent pas")]
         public string Confirmermdp
         {
             get

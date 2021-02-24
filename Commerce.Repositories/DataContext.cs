@@ -17,6 +17,7 @@ namespace Commerce.Repositories
         IConcreteRepository<ClientEntity> _clientRepo;
 
 
+
         public DataContext(string connectionString)
         {
             _produitRepo = new ProduitRepository(connectionString);
@@ -52,7 +53,7 @@ namespace Commerce.Repositories
 
         public bool CreateUser(ClientModel um)
         {
-            ClientEntity ClientEntity = new ClientEntity()
+            ClientEntity clientEntity = new ClientEntity()
             {
                 Nom = um.Nom,
                 Prenom = um.Prenom,
@@ -60,15 +61,15 @@ namespace Commerce.Repositories
                 MotDePasse = um.MotDePasse
             };
 
-            return _clientRepo.Insert(ClientEntity);
+            return _clientRepo.Insert(clientEntity);
         }
 
-        public ClientModel UserAuth(ClientModel lm)
+        public ClientModel UserAuth(LoginModel lm)
         {
-            ClientEntity ue = ((ClientRepository)_clientRepo).GetFromLogin(lm.Email);
+            ClientEntity ue = ((ClientRepository)_clientRepo).GetFromLogin(lm.Login);
             if (ue == null) return null;
             SecurityHelper sh = new SecurityHelper();
-            if (sh.VerifyHash(lm.MotDePasse, ue.MotDePasse, ue.Salt))
+            if (sh.VerifyHash(lm.motDePasse, ue.MotDePasse, ue.Salt))
             {
                 return new ClientModel()
                 {

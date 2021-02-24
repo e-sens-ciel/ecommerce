@@ -9,6 +9,6 @@ namespace Ecommerce.Models
     public class LoginViewModel
     {
         public LoginModel LoginModel { get; set; }
-        public ClientModel UserModel { get; set; }
+        public ClientModel ClientModel { get; set; }
     }
 }
