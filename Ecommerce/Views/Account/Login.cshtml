@@ -103,7 +103,7 @@
                 <div class="register-form">
                     <div class="row">
                         <form action="/Account/Register" method="post">
-                            @Html.AntiForgeryToken() 
+                            @Html.AntiForgeryToken()
                             <div class="col-md-6">
                                 <label>Nom</label>
                                 <input class="form-control" name="Nom" type="text" placeholder="First Name">
@@ -149,29 +149,40 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <div class="login-form">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label>E-mail / Username</label>
-                            <input class="form-control" type="text" placeholder="E-mail / Username">
-                        </div>
-                        <div class="col-md-6">
-                            <label>Password</label>
-                            <input class="form-control" type="text" placeholder="Password">
-                        </div>
-                        <div class="col-md-12">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="newaccount">
-                                <label class="custom-control-label" for="newaccount">Keep me signed in</label>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <button class="btn">Submit</button>
+
+                <div class="col-lg-6">
+                    <div class="login-form">
+                        <div class="row">
+
+                            <form action="/Account/Login" method="post">
+                                @Html.AntiForgeryToken()
+                                <div class="col-md-6">
+                                    <label>E-mail / Username</label>
+                                    <input class="form-control" name="Login" type="text" placeholder="E-mail / Username">
+                                    @Html.ValidationMessageFor(model => model.LoginModel.Login, "", new { @class = "text-danger" })
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Password</label>
+                                    <input class="form-control" name="motDePasse" type="text" placeholder="Password">
+                                    @Html.ValidationMessageFor(model => model.LoginModel.motDePasse, "", new { @class = "text-danger" })
+
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="newaccount">
+                                        <label class="custom-control-label" for="newaccount">Keep me signed in</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn">Submit</button>
+                                </div>
+                            </form>
+
                         </div>
                     </div>
                 </div>
-            </div>
+
+
         </div>
     </div>
 </div>

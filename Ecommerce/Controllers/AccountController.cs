@@ -24,14 +24,6 @@ namespace Ecommerce.Controllers
         }
 
         [HttpGet]
-        public ActionResult Logout()
-        {
-            Session.Abandon();
-
-            return RedirectToAction("Index", "Home");
-        }
-
-        [HttpGet]
         public ActionResult Login()
         {
             return View();
@@ -58,7 +50,7 @@ namespace Ecommerce.Controllers
                         SessionUtils.IsLogged = true;
                         SessionUtils.ConnectedUser = um;
                         return RedirectToAction("Index", "Home", new { area = "Membre" });
-                        //return RedirectToAction("Index", "Home");
+                        //return RedirectToAction("Index", "Home"); 
 
                     }
                 }
@@ -73,6 +65,13 @@ namespace Ecommerce.Controllers
             //}
         }
 
+        [HttpGet]
+        public ActionResult Logout()
+        {
+            Session.Abandon();
+
+            return RedirectToAction("Index", "Home");
+        }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -84,8 +83,8 @@ namespace Ecommerce.Controllers
                 {
                     SessionUtils.IsLogged = true;
                     SessionUtils.ConnectedUser = um;
-                    //return RedirectToAction("Index", "Home", new { area = "Membre" });
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Home", new { area = "Membre" });
+                    //return RedirectToAction("Index", "Home");
 
                 }
                 else

@@ -63,7 +63,7 @@ namespace Commerce.Repositories
         {
             Dictionary<string, object> p = new Dictionary<string, object>();
             p.Add("login", login);
-            return base.Get("Select * from [Client] where Email=@email", p).FirstOrDefault();
+            return base.Get("Select * from [Client] where Email=@login", p).FirstOrDefault();
         }
 
     

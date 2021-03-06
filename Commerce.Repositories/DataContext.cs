@@ -25,10 +25,11 @@ namespace Commerce.Repositories
 
         }
 
-        public ProduitModel GetProduit()
+        public ProduitModel GetProduit(int id)
         {
-            ProduitEntity produitFromDB = _produitRepo.GetOne(1);
+            ProduitEntity produitFromDB = _produitRepo.GetOne(id);
             ProduitModel produitForController = new ProduitModel();
+            produitForController.Id_Produit = produitFromDB.Id_Produit;
             produitForController.Libellé = produitFromDB.Libellé;
             produitForController.Prix = produitFromDB.Prix;
             produitForController.Image = produitFromDB.Image;
@@ -38,11 +39,11 @@ namespace Commerce.Repositories
 
         public List<ProduitModel> GetProduitSlider1()
         {
-
-            return _produitRepo.Get()
+             return _produitRepo.Get()
              .Select(produitsFromDB =>
              new ProduitModel()
              {
+                 Id_Produit = produitsFromDB.Id_Produit,
                  Libellé = produitsFromDB.Libellé,
                  Prix = produitsFromDB.Prix,
                  Image = produitsFromDB.Image,
@@ -83,5 +84,6 @@ namespace Commerce.Repositories
                 return null;
             }
         }
+
     }
 }

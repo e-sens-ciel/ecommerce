@@ -17,5 +17,20 @@ namespace Ecommerce
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+        protected void Application_End()
+        {
+
+        }
+        
+        //Evenement qui va se lancer lorsque l'utilisateur aura session
+        protected void Session_Start()
+        {
+
+        }
+
+        protected void Session_End()
+        {
+
+        }
     }
 }

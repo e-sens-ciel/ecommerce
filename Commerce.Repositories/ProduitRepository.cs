@@ -22,7 +22,7 @@ namespace Commerce.Repositories
 
         public ProduitEntity GetOne(int PK)
         {
-            string requete = "Select * from Produit where Id_Produit = @id";
+            string requete = "Select * from Produit where Id_Produit ="+ PK;
 
             return base.GetOne(PK, requete);
         }

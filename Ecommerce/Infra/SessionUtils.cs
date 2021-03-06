@@ -1,4 +1,5 @@
 ﻿using Commerce.Models;
+using Ecommerce.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +33,19 @@ namespace Ecommerce.Infra
 
             set { HttpContext.Current.Session["ConnectedUser"] = value; }
 
+        }
+
+        public static ProduitModel Produit
+        {
+            get
+            { 
+                return (ProduitModel)HttpContext.Current.Session["cart"];
+            }
+
+            set
+            { 
+                HttpContext.Current.Session["cart"] = value; 
+            }
         }
     }
 }

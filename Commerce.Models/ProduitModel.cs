@@ -8,7 +8,7 @@ namespace Ecommerce.Models
     public class ProduitModel
     {
         #region Fields
-
+        private int _id_Produit;
         private string _libellé;
         private string _description;
         private double _prix;
@@ -136,6 +136,19 @@ namespace Ecommerce.Models
             set
             {
                 _image = value;
+            }
+        }
+
+        public int Id_Produit
+        {
+            get
+            {
+                return _id_Produit;
+            }
+
+            set
+            {
+                _id_Produit = value;
             }
         }
         #endregion

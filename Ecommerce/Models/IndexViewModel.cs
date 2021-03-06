@@ -21,8 +21,7 @@ namespace Ecommerce.Models
 
         public IndexViewModel()
         {
-             produitDB = ctx.GetProduit();
-             produitsDBSlider1 = ctx.GetProduitSlider1();
+            produitsDBSlider1 = ctx.GetProduitSlider1();
 
             //Section Featured Product
             //Slider1 = new List<SliderModel>();
@@ -89,17 +88,19 @@ namespace Ecommerce.Models
             }
         }
 
-        public List<ProduitModel> ProduitsDBSlider1
-        {
-            get
-            {
-                return produitsDBSlider1;
-            }
 
-            set
-            {
-                produitsDBSlider1 = value;
-            }
-        }
+
+        //public List<ProduitModel> ProduitsDBSlider1
+        //{
+        //    get
+        //    {
+        //        return produitsDBSlider1;
+        //    }
+
+        //    set
+        //    {
+        //        produitsDBSlider1 = value;
+        //    }
+        ////}
     }
 }

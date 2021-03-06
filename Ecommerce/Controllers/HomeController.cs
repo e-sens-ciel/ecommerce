@@ -1,4 +1,6 @@
-﻿using Ecommerce.Models;
+﻿using Commerce.Models;
+using Ecommerce.Infra;
+using Ecommerce.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,18 +16,29 @@ namespace Ecommerce.Controllers
             IndexViewModel ivm = new IndexViewModel();
             return View(ivm);
         }
+        //public ActionResult Cart()
+        //{
+        //    return View();
+        //}
+        //[HttpPost]
+        //public ActionResult Cart(ProduitModel pm)
+        //{
+        //    //CartModel cm = new CartModel();
+        //    //cm.produitsCarte.Add(pm);
+        //    //CartViewModel cvm = new CartViewModel(cm);
+        //    SessionUtils.Produit = pm;
+        //    CartViewModel carte = new CartViewModel();
 
+        //    return View(carte);
+
+        //}
         public ActionResult ProductList()
         {
+            Session["MessageInfo"] = "Hi bitch";
 
             return View();
         }
         public ActionResult ProductDetail()
-        {
-
-            return View();
-        }
-        public ActionResult Cart()
         {
 
             return View();
@@ -45,11 +58,6 @@ namespace Ecommerce.Controllers
 
             return View();
         }
-        //public ActionResult Login()
-        //{
-        //    //LoginViewModel lvm = new LoginViewModel();
-        //    return View();
-        //}
 
         public ActionResult Contact()
         {
